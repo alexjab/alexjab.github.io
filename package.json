@@ -1,0 +1,15 @@
+{
+  "name": "alexjab.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexjab/alexjab.github.io.git"
+  },
+  "author": "alexjab <alexandre.jablon@gmail.com> (http://jablon.me/)",
+  "homepage": "http://jablon.me",
+  "dependencies": {
+    "bulma": "^0.1.0"
+  }
+}
