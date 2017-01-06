@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "scripts": {
+    "minify:css": "cleancss ./node_modules/bulma/css/bulma.css -o bulma.css "
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alexjab/alexjab.github.io.git"
@@ -11,5 +14,8 @@
   "homepage": "http://jablon.me",
   "dependencies": {
     "bulma": "^0.1.0"
+  },
+  "devDependencies": {
+    "clean-css": "^3.4.23"
   }
 }
