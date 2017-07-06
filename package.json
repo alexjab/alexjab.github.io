@@ -1,6 +1,6 @@
 {
   "name": "alexjab.github.io",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -13,9 +13,10 @@
   "author": "alexjab <alexandre.jablon@gmail.com> (http://jablon.me/)",
   "homepage": "http://jablon.me",
   "dependencies": {
-    "bulma": "^0.1.0"
+    "bulma": "^0.4.2"
   },
   "devDependencies": {
-    "clean-css": "^3.4.23"
+    "clean-css": "^3.4.23",
+    "emoji-datasource": "^3.0.0"
   }
 }

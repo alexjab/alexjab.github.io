@@ -1,5 +1,6 @@
 html {
   background-color: white;
+  font-size: 14px;
 }
 
 .resume-item {
@@ -16,6 +17,40 @@ html {
   line-height: 1.5;
 }
 
+.resume-name {
+  text-transform: uppercase;
+}
+
 a {
   font-weight: bold;
+}
+
+.em {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+
+.em.em-runner {
+  background-image: url('./em-runner-20.png');
+}
+
+.em.em-flag-fr {
+  background-image: url('./em-flag-fr-20.png');
+}
+
+.em.em-flag-gb {
+  background-image: url('./em-flag-gb-20.png');
+}
+
+.em.em-flag-us {
+  background-image: url('./em-flag-us-20.png');
+}
+
+.em.em-computer {
+  background-image: url('./em-computer-20.png');
+}
+
+.em.em-guitar {
+  background-image: url('./em-guitar-20.png');
 }
