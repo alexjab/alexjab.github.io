@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "minify:css": "cleancss ./node_modules/bulma/css/bulma.css -o bulma.css "
+    "build": "node-sass ./style.scss ./style.css && cleancss ./style.css -o style.css",
+    "watch": "node-sass ./style.scss --watch ./style.css"
   },
   "repository": {
     "type": "git",
@@ -13,7 +14,9 @@
   "author": "alexjab <alexandre.jablon@gmail.com> (http://jablon.me/)",
   "homepage": "http://jablon.me",
   "dependencies": {
-    "bulma": "~0.5.2"
+    "bulma": "^0.6.1",
+    "node-sass": "^4.7.2",
+    "parcel-bundler": "^1.2.1"
   },
   "devDependencies": {
     "clean-css-cli": "^4.1.9",

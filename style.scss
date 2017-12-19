@@ -1,0 +1,8 @@
+@import url('https://rsms.me/inter/inter-ui.css');
+@import "./node_modules/bulma/sass/utilities/initial-variables";
+@import "./node_modules/bulma/sass/utilities/functions";
+
+$family-sans-serif: 'Inter UI', sans-serif;
+$body-size: 14px;
+
+@import "./node_modules/bulma/bulma.sass";
