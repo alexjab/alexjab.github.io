@@ -1,7 +1,51 @@
-@import "./node_modules/bulma/sass/utilities/initial-variables";
-@import "./node_modules/bulma/sass/utilities/functions";
+@import './fonts/inter.css';
 
-$body-size: 14px;
-$hr-margin: 0.5rem 0;
+html {
+  font-family: 'Inter', sans-serif;
+}
 
-@import "./node_modules/bulma/bulma.sass";
+body {
+  font-family: Inter;
+  font-size: 14px;
+  margin: 0;
+  padding-top: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #1a73e8;
+  font-weight: 500;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid silver;
+}
+
+.title1 {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.title2 {
+  font-size: 1.25em;
+  font-weight: 500;
+}
+
+.important {
+  font-weight: 500;
+}
+
+.list-elem {
+  margin-top: 5px;
+  margin-left: 10px;
+
+  &:before {
+    content: '\2013';
+  }
+}
+
+.section {
+  padding-left: 50px;
+  padding-right: 50px;
+}

@@ -13,11 +13,8 @@
   },
   "author": "alexjab <alexandre.jablon@gmail.com> (http://jablon.me/)",
   "homepage": "http://jablon.me",
-  "dependencies": {
-    "bulma": "^0.6.1",
-    "node-sass": "^4.7.2"
-  },
   "devDependencies": {
-    "clean-css-cli": "^4.1.9"
+    "node-sass": "4.7.2",
+    "clean-css-cli": "4.1.9"
   }
 }
