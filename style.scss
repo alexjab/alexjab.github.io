@@ -1,4 +1,4 @@
-// @import './fonts/inter.css';
+@import './fonts/inter.css';
 
 @font-face {
   font-family: 'Inconsolata';
@@ -27,7 +27,7 @@ html {
 body {
   font-size: 14px;
   margin: 0;
-  padding-top: 40px;
+  padding-top: 10px;
 }
 
 a {
@@ -42,12 +42,14 @@ hr {
 }
 
 .title1 {
-  font-size: 1.5em;
+  font-family: 'Inter';
+  font-size: 1.25em;
   font-weight: 700;
 }
 
 .title2 {
-  font-size: 1.25em;
+  font-family: 'Inter';
+  font-size: 1.125em;
   font-weight: 700;
 }
 
@@ -67,4 +69,5 @@ hr {
 .section {
   padding-left: 50px;
   padding-right: 50px;
+  padding-top: 30px;
 }
