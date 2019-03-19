@@ -1,11 +1,30 @@
-@import './fonts/inter.css';
+// @import './fonts/inter.css';
+
+@font-face {
+  font-family: 'Inconsolata';
+  font-style:  normal;
+  font-weight: 400;
+  src: url("./fonts/Inconsolata-Regular.woff2") format("woff2"),
+    url("./fonts/Inconsolata-Regular.woff") format("woff"),
+    url("./fonts/Inconsolata-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Inconsolata';
+  font-style:  normal;
+  font-weight: 700;
+  src: url('Inconsolata-Bold.woff2') format('woff2'),
+  url('Inconsolata-Bold.woff') format('woff'),
+  url("./fonts/Inconsolata-Bold.ttf") format("truetype");
+}
 
 html {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inconsolata';
+  font-weight: 400;
+  font-style: normal;
 }
 
 body {
-  font-family: Inter;
   font-size: 14px;
   margin: 0;
   padding-top: 40px;
@@ -14,7 +33,7 @@ body {
 a {
   text-decoration: none;
   color: #1a73e8;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 hr {
@@ -24,16 +43,16 @@ hr {
 
 .title1 {
   font-size: 1.5em;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .title2 {
   font-size: 1.25em;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .important {
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .list-elem {
