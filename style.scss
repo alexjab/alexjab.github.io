@@ -41,6 +41,10 @@ hr {
   border-top: 1px solid gainsboro;
 }
 
+p:last-child {
+  margin-bottom: 0;
+}
+
 .title1 {
   font-family: 'Inter';
   font-size: 1.25em;
@@ -49,8 +53,18 @@ hr {
 
 .title2 {
   font-family: 'Inter';
-  font-size: 1.125em;
+  font-size: 1.25em;
   font-weight: 700;
+  &:after {
+    content: '\00a0\00a0///'
+  }
+  color: white;
+  background-color: black;
+  display: inline-block;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 3px;
+  padding-right: 3px;
 }
 
 .important {
