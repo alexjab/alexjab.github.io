@@ -55,8 +55,8 @@ p:last-child {
   font-family: 'Inter';
   font-size: 1.25em;
   font-weight: 700;
-  &:after {
-    content: '\00a0\00a0///'
+  &:before {
+    content: '_'
   }
   color: white;
   background-color: black;
