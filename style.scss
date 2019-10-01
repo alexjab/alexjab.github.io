@@ -2,20 +2,20 @@
 
 @font-face {
   font-family: 'Inconsolata';
-  font-style:  normal;
+  font-style: normal;
   font-weight: 400;
-  src: url("./fonts/Inconsolata-Regular.woff2") format("woff2"),
-    url("./fonts/Inconsolata-Regular.woff") format("woff"),
-    url("./fonts/Inconsolata-Regular.ttf") format("truetype");
+  src: url('./fonts/Inconsolata-Regular.woff2') format('woff2'),
+    url('./fonts/Inconsolata-Regular.woff') format('woff'),
+    url('./fonts/Inconsolata-Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Inconsolata';
-  font-style:  normal;
+  font-style: normal;
   font-weight: 700;
   src: url('Inconsolata-Bold.woff2') format('woff2'),
-  url('Inconsolata-Bold.woff') format('woff'),
-  url("./fonts/Inconsolata-Bold.ttf") format("truetype");
+    url('Inconsolata-Bold.woff') format('woff'),
+    url('./fonts/Inconsolata-Bold.ttf') format('truetype');
 }
 
 html {
@@ -25,9 +25,13 @@ html {
 }
 
 body {
-  font-size: 14px;
+  font-size: 15px;
   margin: 0;
   padding-top: 10px;
+  background-color: #e0e0e0;
+  color: #212121;
+  // color: #e0e0e0;
+  // background-color: #212121;
 }
 
 a {
@@ -51,22 +55,6 @@ p:last-child {
   font-weight: 700;
 }
 
-.title2 {
-  font-family: 'Inter';
-  font-size: 1.25em;
-  font-weight: 700;
-  &:before {
-    content: '_'
-  }
-  color: white;
-  background-color: black;
-  display: inline-block;
-  padding-top: 1px;
-  padding-bottom: 1px;
-  padding-left: 3px;
-  padding-right: 3px;
-}
-
 .important {
   font-weight: 700;
 }
@@ -81,7 +69,7 @@ p:last-child {
 }
 
 .section {
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
   padding-top: 30px;
 }
