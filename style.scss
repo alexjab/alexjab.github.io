@@ -28,16 +28,25 @@ body {
   font-size: 15px;
   margin: 0;
   padding-top: 10px;
-  background-color: #e0e0e0;
+  background-color: #f4f4f4;
   color: #212121;
-  // color: #e0e0e0;
-  // background-color: #212121;
 }
 
 a {
   text-decoration: none;
   color: #1a73e8;
   font-weight: 700;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #e9e9e9;
+    background-color: #292929;
+  }
+
+  a {
+    color: #338bff;
+  }
 }
 
 hr {
@@ -62,10 +71,6 @@ p:last-child {
 .list-elem {
   margin-top: 5px;
   margin-left: 10px;
-
-  &:before {
-    content: '\2013';
-  }
 }
 
 .section {
