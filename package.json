@@ -15,5 +15,8 @@
   "homepage": "http://jablon.me",
   "devDependencies": {
     "sass": "1.78.0"
+  },
+  "dependencies": {
+    "nord": "0.2.1"
   }
 }

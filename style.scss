@@ -1,4 +1,5 @@
 @import "./fonts/inter.css";
+@import "node_modules/nord/src/sass/nord.scss";
 
 @font-face {
   font-family: "Inconsolata";
@@ -30,25 +31,13 @@ body {
   font-size: 15px;
   margin: 0;
   padding-top: 10px;
-  background-color: #f1f3f5;
-  color: #343a40;
+
+  background-color: $nord0;
+  color: $nord4;
 }
 
 a {
-  text-decoration: none;
-  color: #4263eb;
-  font-weight: 700;
-}
-
-@media (prefers-color-scheme: dark) {
-  body {
-    color: #e9ecef;
-    background-color: #212529;
-  }
-
-  a {
-    color: #5c7cfa;
-  }
+  color: $nord7;
 }
 
 hr {
@@ -61,6 +50,7 @@ p:last-child {
 }
 
 .title1 {
+  color: $nord10;
   font-family: "Inter";
   font-size: 1.25em;
   font-weight: 700;
@@ -79,6 +69,16 @@ p:last-child {
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 30px;
+}
+
+em {
+  font-style: inherit;
+  color: $nord14;
+  font-weight: 700;
+
+  &.date-range {
+    color: $nord15;
+  }
 }
 
 .footer {
