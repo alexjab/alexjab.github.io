@@ -79,8 +79,13 @@ em {
   &.date-range {
     color: $nord15;
   }
+
+  &.highlight {
+    color: $nord13;
+  }
 }
 
 .footer {
   padding-bottom: 40px;
+  color: $nord3;
 }
